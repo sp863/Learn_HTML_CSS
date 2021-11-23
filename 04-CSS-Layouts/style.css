@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -219,7 +219,6 @@ button {
 }
 
 .author {
-  /* padding-left: 80px; */
   float: left;
   margin-top: 10px;
   margin-left: 20px;
@@ -231,4 +230,26 @@ h1 {
 
 nav {
   float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.clearfix {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+article {
+  width: 825px;
+  float: left;
+}
+aside {
+  width: 300px;
+  float: right;
+}
+footer {
+  clear: both;
 }
