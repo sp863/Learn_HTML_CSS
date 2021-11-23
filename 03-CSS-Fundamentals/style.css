@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
 }
-
+/* Page Sections */
 body {
   color: #444;
   font-family: sans-serif;
@@ -23,7 +23,7 @@ body {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
+  /* height: 80px; */
 }
 
 nav {
@@ -45,7 +45,7 @@ aside {
   padding: 50px 0;
   width: 500px;
 }
-
+/* Smaller Elements */
 h1,
 h2,
 h3 {
@@ -78,6 +78,7 @@ h4 {
 li {
   font-size: 20px;
   margin-bottom: 10px;
+  /* display: inline; */
 }
 
 ul,
@@ -86,7 +87,12 @@ ol {
   margin-bottom: 20px;
 }
 
+li:first-child {
+  font-weight: bold;
+}
+
 li:last-child {
+  font-style: italic;
   margin-bottom: 0;
 }
 
@@ -123,18 +129,6 @@ article header p {
   list-style: none;
 }
 
-body {
-  /* background-color: ; */
-}
-
-li:first-child {
-  font-weight: bold;
-}
-
-li:last-child {
-  font-style: italic;
-}
-
 /* li:nth-child(odd) {
   color: red;
 } */
@@ -168,4 +162,18 @@ a:active {
 .post-image {
   width: 100%;
   height: auto;
+}
+
+nav a:link {
+  /* background-color: orangered;
+  margin: 20px;
+  padding: 20px;
+  display: block; */
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
 }
