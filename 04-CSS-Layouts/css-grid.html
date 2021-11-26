@@ -34,13 +34,14 @@
 
       .container--1 {
         /* STARTER */
+        display: none;
         font-family: sans-serif;
         background-color: #ddd;
         font-size: 40px;
         margin: 40px;
 
         /* CSS GRID */
-        display: grid;
+        /* display: grid; */
         /* grid-template-columns: 2fr 1fr 1fr auto; */
         /* grid-template-rows: 300px 200px; */
         grid-template-columns: repeat(4, 1fr);
@@ -65,17 +66,35 @@
       }
 
       .container--2 {
-        display: none;
+        /* display: none; */
         /* STARTER */
         font-family: sans-serif;
         background-color: black;
         font-size: 40px;
         margin: 100px;
 
-        width: 1000px;
-        height: 600px;
+        width: 700px;
+        height: 700px;
 
         /* CSS GRID */
+        display: grid;
+        grid-template-columns: 125px 200px 125px;
+        grid-template-rows: 250px 100px;
+        gap: 50px;
+
+        /* Aligning tracks inside container: distribute empty space */
+        justify-content: center;
+        align-content: center;
+
+        /* Aligning itmes INSIDE celss: move items around inside cells */
+        align-items: end;
+        justify-items: end;
+      }
+
+      /* centering individual items */
+      .el--3 {
+        align-self: center;
+        justify-self: center;
       }
     </style>
   </head>
