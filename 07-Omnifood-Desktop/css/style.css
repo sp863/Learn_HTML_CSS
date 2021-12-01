@@ -36,9 +36,31 @@ UI Faces website - for testimonials , random faces
   box-sizing: border-box;
 }
 
+html {
+  /* SETTING 1 rem */
+  /* font-size: 10px; */
+
+  /* 10px/16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
+}
+
+.test {
+  /* width: 1000px; */
+  /* max-width: 1000px; */
+  background-color: red;
+  padding: 4rem;
+
+  max-width: 50rem;
+  color: #fff;
+  font-size: 2rem;
+  /* 1 rem - 16px */
+  /* 1 rem = 10px */
 }
