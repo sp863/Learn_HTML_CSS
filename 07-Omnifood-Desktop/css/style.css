@@ -13,7 +13,12 @@ Bold: 700
 Line heights:
 Default: 1
 Small: 1.05
+Medium: 1.2
 Paragraph default: 1.6
+
+- Letter spacing
+0.5px
+0.75
 
 SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
@@ -66,13 +71,34 @@ body {
 /* GENERAL REUSABLE COMPONENTS */
 /* ************************************ */
 
+.heading-primary,
+.heading-secondary {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  font-weight: 700;
+  color: #333;
+}
+
 .heading-primary {
   font-size: 5.2rem;
-  font-weight: 700;
   line-height: 1.05;
-  color: #333;
-  letter-spacing: -0.5px;
   margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.subheading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #cf711f;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
 }
 
 .btn--full:link,
@@ -260,5 +286,8 @@ body {
 
 .section-how {
   padding: 9.6rem 0;
-  background-color: orange;
+}
+
+.step-img {
+  width: 50%;
 }
