@@ -116,6 +116,30 @@ body {
   /* helper class */
   margin-right: 1.6rem !important;
 }
+
+.container {
+  /* 1140 px - another standard width */
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--2--cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--3--cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4--cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 /* ************************************ */
 /* HEADER */
 /* ************************************ */
@@ -228,4 +252,13 @@ body {
 .delivered-text span {
   color: #cf711f;
   font-weight: 700;
+}
+
+/* ************************************ */
+/* HOW IT WORKS SECTION */
+/* ************************************ */
+
+.section-how {
+  padding: 9.6rem 0;
+  background-color: orange;
 }
