@@ -165,10 +165,6 @@ body {
   /* Changing border to transparent */
   border-bottom: 1px solid transparent;
 }
-.margin-right-sm {
-  /* helper class */
-  margin-right: 1.6rem !important;
-}
 
 .container {
   /* 1140 px - another standard width */
@@ -181,7 +177,6 @@ body {
   display: grid;
   gap: 9.6rem;
   column-gap: 6.4rem;
-  grid-template-columns: repeat(2, 1fr);
 }
 
 /* .grid:last-child {
@@ -228,6 +223,11 @@ body {
 
 .margin-bottom-md {
   margin-bottom: 4.8rem !important;
+}
+
+.margin-right-sm {
+  /* helper class */
+  margin-right: 1.6rem !important;
 }
 
 .center-text {
